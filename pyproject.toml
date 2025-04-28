@@ -1,0 +1,26 @@
+[project]
+name = "langg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.7",
+    "faiss-cpu>=1.10.0",
+    "google-generativeai>=0.8.5",
+    "google-search-results>=2.4.2",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.24",
+    "langchain-cerebras>=0.5.0",
+    "langchain-huggingface>=0.1.2",
+    "langchain-nomic>=0.1.4",
+    "langchainhub>=0.1.21",
+    "langgraph>=0.3.34",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "selenium>=4.31.0",
+    "sentence-transformers>=4.1.0",
+    "tavily-python>=0.7.0",
+    "tiktoken>=0.9.0",
+    "wikipedia>=1.4.0",
+]
